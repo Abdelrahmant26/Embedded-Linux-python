@@ -1,4 +1,4 @@
 #this code shows the envirom=nment variables by executing command "env" in linux
 import os
-x=os.system("env")
+x=os.system("env | grep PATH")
 print(x)
