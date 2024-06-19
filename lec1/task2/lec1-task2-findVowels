@@ -1,0 +1,5 @@
+#this script shows all vowel characters present in a given string
+x=input()
+for i in x :
+    if i.lower() in ["e","a","o","i","u"] :
+        print("letter "+i+" is a vowel")

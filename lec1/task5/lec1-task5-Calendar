@@ -1,0 +1,9 @@
+#displays month in a specific year based on user input
+import calendar
+year=input("enter year :")
+print("\n")
+year=int(year)
+month=input("enter month :")
+print("\n")
+month=int(month)
+print(calendar.month(year, month))
