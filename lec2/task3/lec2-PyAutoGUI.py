@@ -1,11 +1,7 @@
+#this code depends only on keyboard actions due to lack of locate() functionality as I am using Wayland compositor
 import pyautogui
 import time as t
 import os
-#x=pyautogui.locate("tar.png", "main.png", confidence=0.9)
-#print(x)
-#print("done")
-#t.sleep(5)
-#print(pyautogui.position())
 def start_search():
     pyautogui.keyDown('ctrl')
     t.sleep(0.5)
