@@ -28,7 +28,3 @@ with open("out.csv", 'w') as file:
             TeamA,
             TeamB
         ])
-#print(divs[0].text.split())
-#print([divs[0]])
-#t=divs[0].find_all("div", ["tourName"])
-#print(t)
