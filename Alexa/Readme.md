@@ -1,10 +1,13 @@
-# Dependencies :
-
-## Section 1
-### Subsection 1.1
+# Docs
+## Dependencies : 
 - python speechRecognition
   - ```bash 
-    pip3 install SpeechRecognition```
+    pip3 install SpeechRecognitio
+    ```
 - spd-say terminal utility
   - ```bash
-    sudo apt install speech-dispatcher speech-dispatcher-audio-plugins```
+    sudo apt install speech-dispatcher speech-dispatcher-audio-plugins
+    ```
+## Features :
+- open/execute programs
+- using "What", you can get the date, time or individual data like current month only 
