@@ -2,7 +2,7 @@
 ## Dependencies : 
 - python speechRecognition
   - ```bash 
-    pip3 install SpeechRecognitio
+    pip3 install SpeechRecognition
     ```
 - spd-say terminal utility
   - ```bash
