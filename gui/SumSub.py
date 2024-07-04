@@ -1,0 +1,28 @@
+from tkinter import *
+root=Tk()
+root.title("title")
+v=IntVar()
+rad1=Radiobutton(root, text="sum", variable=v, value=1)
+rad2=Radiobutton(root, text="sub", variable=v, value=2)
+rad1.grid(row=4)
+rad2.grid(row=5)
+strvar=StringVar()
+lbl=Label(root,text="operand 1")
+lbl.grid(column=1,row=1)
+lbll=Label(root, text="operand 2")
+lbll.grid(row=2, column=1)
+ent=Entry(root)
+ent.grid(row=1, column=2)
+ent2=Entry(root)
+ent2.grid(row=2, column=2)
+lbl2=Label(root,textvariable=strvar)
+lbl2.grid(column=2)
+def func():
+    print("hiii")
+    if v.get()==1:
+        strvar.set(float(ent.get())+float(ent2.get()))
+    elif v.get()==2:
+        strvar.set(float(ent.get())-float(ent2.get()))
+btn=Button(root, text="OK", command=func)
+btn.grid(row=3)
+root.mainloop()

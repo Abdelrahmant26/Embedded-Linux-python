@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.title("title")
+strvar=StringVar()
+lbl=Label(root,text="Label")
+lbl.grid(column=1,row=1)
+ent=Entry(root)
+ent.grid(row=1, column=2)
+lbl2=Label(root,textvariable=strvar)
+lbl2.grid(column=2)
+btn=Button(root, text="OK", command=lambda: strvar.set(ent.get()[::-1]))
+btn.grid(row=3)
+root.mainloop()
